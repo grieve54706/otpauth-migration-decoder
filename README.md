@@ -15,12 +15,13 @@ The protobuf package is required to running this script:
 
 ```.shell
 $ pip install protobuf
+$ pip install click
 ```
 
 ## example
 
 ```
-$ python decoder.py "otpauth-migration://offline?data=CjEKCkhlbGxvId6tvu8SGEV4YW1wbGU6YWxpY2VAZ29vZ2xlLmNvbRoHRXhhbXBsZTAC"
+$ python decoder.py --convert "otpauth-migration://offline?data=CjEKCkhlbGxvId6tvu8SGEV4YW1wbGU6YWxpY2VAZ29vZ2xlLmNvbRoHRXhhbXBsZTAC"
 ```
 
 
